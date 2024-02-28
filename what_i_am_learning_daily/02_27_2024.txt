@@ -1,0 +1,29 @@
+date: February 27, 2024
+
+I watched one video.
+
+Three important things I learned:
+	- COBOL is used for coding business logic in an application.
+	- A COBOL program has a particular structure that consists of divisions, sections (which can divide divisions into parts), paragraphs (which can be used to divide divisons or sections into parts), and statements (which are the COBOL instructions for what tasks the systems needs to do).
+		- There are four types of divisions:
+			- IDENTIFICATION (ID) DIVISION:
+				- provides documentation details (or metadata) of a program
+				- NOTE: Inside this division, there is the PROGRAM-ID paragraph that is used to specify the name of the program. This paragraph is mandatory and consists of alpha-numerical characters that cannot exceed 8 characters. We should follow the naming convention used in the project when naming the program.
+				- NOTE: There are no sections/statements in this division.
+			- ENVIRONMENT DIVISION:
+				- used to define the required input/output files for the program
+				- NOTE: This division is only needed for batch programs that makes use of files.
+			- DATA DIVISION:
+				- used to define all the variables required by the program
+				- NOTE: There are diffent sections where a variable can be defined within this division.
+			- PROCEDURE DIVISION:
+				- used to code the business logic 
+				- has no predefined sections, but a programmer can create their own custom sections and paragraphs
+				- NOTE: This is only division that has statements, which will tell the system how the processing should occur.
+	- A line in a COBOL program is split into columns:
+		- There are 1 through 80 columns.
+		- Columns 1 through 6 (inclusively) are system auto-generated.
+		- When you start at column 7, you write program comments.
+		- When you start between columns 8 through 11 (inclusively), you can do divisions, sections, and paragraphs.
+		- When you start between columns 12 through 72 (inclusively), you will be writing COBOL statements.
+		- When you start between columns 73 through 80 (inclusively), you can do something called a "change tag." Its importance should be found out later as I continue learning.

@@ -1,0 +1,24 @@
+date: February 26, 2024
+
+NOTE: I am writing this on February 27, 2026, because I change the approach of how my mainframe learning project. Below is what I did and learned on February 26, 2024.
+
+I watched one lecture video.
+
+Three important things that I learned:
+	- A mainframe is a computer that is used for storing and processing large amounts of data
+	- Some of the following domains make use of mainframes:
+		- banking
+		- insurance
+		- transport (like airlines)
+		- stock market
+		- retail
+	- Batch processing and online processing are the two ways to process data in the mainframe:
+		- batch processing
+			- processes data in bulk
+			- occurs on specified schedule
+			- occurs without human interaction
+		- An example of batch processing is a credit card company generating monthly billing statements for its customers on February 26, 2024.
+		- online processing
+			- occurs unscheduled
+			- occurs as a result of human interaction (because a transaction occurred)
+		- An example of an online processing is making a person using their debit card to withdraw money from an automated teller machine (ATM).
