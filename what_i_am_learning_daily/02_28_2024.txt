@@ -1,0 +1,33 @@
+date: 02/28/2024
+
+I watched one full lecture video today.
+
+A COBOL program consists of a main program and possibly other COBOL subprograms.
+
+I learned about the COBOL compilation process, but I have not fully understood it. What I understand is that it involves two steps:
+	1) There is a COBOL compiler (and it is a program called IGYCRCTL) that checks for syntax errors and compiles a COBOL program (known as source code) to object code if there are no errors.
+	2) There is a link editor (and it is either a program called HEWL or a program called IEWL) that takes the output from step 1 and links it with any compiled COBOL subprograms and any other necessary files. Any COBOL subprograms must be compiled first before the main COBOL program from step 1 can be compiled. Note that step 2 only occurs if step 1 finishes successfully.
+
+When the link editor finishes, there will be an executable load module that the system can use so that the program can be executed.
+
+To do this compilation in the mainframe, JCL (Job Control Language) is used.
+
+JCL can be used to execute a COBOL program (when the program is a batch process program).
+
+Two common words used when discussing JCL is "job" and "step":
+	- A job is the execution of one or more programs.
+	- A step is a single program execution.
+	- Thus, a job consists of one or more steps.
+
+JCL is made of a four different statements, and a line is JCL starts with two forward slashes "//":
+	- JOB statement
+		- This statement is the very first statement.
+		- This statement is used to provide the job name and can do other things with the use of parameters
+	- EXEC statement
+		- This statement is used to execute a program.
+		- There is a parameter for this statement where you will provide the name of the program to be executed. The name of this parameter is PRG.
+	- DD statement
+		- This statement is used to provide the input/output required for a job step.
+		- STEPLIB statement is a DD statement that can be used to specify which library the load module is in for a given JCL step
+	- NULL statement
+		- This statement generally marks the end of the JCL job.
