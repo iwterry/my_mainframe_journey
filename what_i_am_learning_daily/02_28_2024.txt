@@ -1,6 +1,6 @@
-date: 02/28/2024
+date: February 28, 2024
 
-I watched one full lecture video today.
+I watched the third lecture (Introduction to JCL) from the first course.
 
 A COBOL program consists of a main program and possibly other COBOL subprograms.
 
