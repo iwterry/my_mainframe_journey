@@ -1,6 +1,6 @@
 date: February 27, 2024
 
-I watched one video.
+I watched the second lecture (Introduction to COBOL) from the first course.
 
 Three important things I learned:
 	- COBOL is used for coding business logic in an application.
