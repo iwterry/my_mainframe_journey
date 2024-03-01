@@ -1,8 +1,7 @@
 date: February 26, 2024
 
-NOTE: I am writing this on February 27, 2024 (because I starting a new approach), but below is what I did and learned on February 26, 2024.
 
-I watched one lecture video.
+I watched the first lecture (Introduction to Mainframe) from the first course.
 
 Three important things that I learned:
 	- A mainframe is a computer that is used for storing and processing large amounts of data
