@@ -8,6 +8,6 @@ I learned that an emulator software installed on a laptop can be used to connect
 
 I also learned that after I login, I can select a TSO environment (among many other choices). While I do not believe what TSO stands for was discussed, I did learn that my COBOL programs, program load modules, JCL jobs, and files will be located in the TSO environment.
 
-Another thing that was discussed in the lecture video was that in order to code, compile, and run COBOL programs, I would need a places to store the COBOL programs, load modules, and JCL jobs (given that I am using JCL jobs to execute the load modules). Data sets (specifically, PDS data sets) are used to store these things. There are other types of data sets besides PDS data sets
+Another thing that was discussed in the lecture video was that in order to code, compile, and run COBOL programs, I would need places to store the COBOL programs, load modules, and JCL jobs (given that I am using JCL jobs to execute the load modules). Data sets (specifically, PDS data sets) are used to store these things. There are other types of data sets besides PDS data sets, though.
 
 After I login to the mainframe and select the TSO environment, I learned that I would be presented with a screen that is called the "ISPF Primary Option Menu," where there would be menu options that would allow me to navigate the menu and perform different actions (such as creating data sets).
