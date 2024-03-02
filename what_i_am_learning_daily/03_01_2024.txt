@@ -1,0 +1,41 @@
+date: March 1, 2024
+
+
+I finished the fourth lecture (by watching the remaining almost 36 minutes of the lecture) for the first course.
+
+
+To store a data set on a mainframe, you need to specify the "unit" and "volume" to store it at. A unit is a partition of the mainframe storage, and a unit is further divided into volumes. The volume of the unit that you choose will be the location where the data set is stored.
+
+
+Storage space in the mainframe is measured in "tracks" and "cylinders." One cylinder is equal to fifteen tracks. You choose how much primary quantity space and how much secondary quantity space you need, and your data set will use the accumulation of both of these spaces to determine how much storage space is available to it.
+	- Primary quantity space is of a fixed size. If you choose 10 tracks of primary quantity space, you will get only 10 tracks (whether you need all of it or not).
+	- Secondary quantity space can be extended but is only used when needed. It extends the space available for your data set storage by a factor of a number of your choosing up to 15 times. This extension happens on an as-needed basis and occurs only just enough to accommodate the data set size and no more. 
+	- If you choose 10 tracks of secondary quantity storage, then the space available for your data set storage can be extended by a factor of 10 as needed. You will have no secondary quantity space initially (because no space is needed yet), but as your data set needs more space, you will be allocated up to 150 (or 10 * 15) tracks. (When you extend 10 tracks fifteen times, you get 150 tracks.)
+	- The secondary storage space is used after your data set needs more than the primary storage space can provide. Whatever is not stored in the primary quantity space will be stored in the secondary quantity space (assuming that it is able to store the remaining size of what is not stored in the primary quantity space).
+	- If you have a primary quantity space of 10 tracks and a secondary quantity space of 10 tracks, then you have at least 10 tracks of storage available and at most 160 (= 10 * 15 + 10) tracks available to be allocated to store your data set.
+		- If your data set is 1 track, then you will have 10 tracks allocated for primary quantity space (with 9 tracks free) and 0 tracks allocated for secondary quantity space.
+		- If your data set is 12 tracks, then you will have 10 tracks allocated for primary quantity space (with 0 tracks free) and 10 tracks allocated for secondary quantity space (with 8 tracks free).			
+		- If your data set is 18 tracks, then you will have 10 tracks allocated for primary quantity space (with 0 tracks free) and 10 tracks allocated for secondary quantity space (with 2 tracks free).
+		- If your data set is 24 tracks, then you will have 10 tracks allocated for primary quantity space (with 0 tracks free) and 20 tracks allocated for secondary quantity space (with 6 tracks free).
+
+
+For PDS data sets only, you need to choose the maximum number of partitions of the space made available from the primary and secondary storage spaces. This maximum number is based on what is known as the "directory block." The number of partitions is at most the value you choose for the directory block multiplied by 6. So if you have 6 as the partition block, you can have at most 36 partitions. Each partition can store a single COBOL program, load module, or JCL module.
+	- If you choose the block size to be 6, have 24 programs stored in the data set (which is the same as having 24 partitions), and have no space available to allocate to the data set, you will not be able to partition any more space (because there is no space available to partition); therefore, you will not be able to add another program to the data set.
+	- If you choose the block size to be 6, have 36 programs stored in the data set (which is the same as having 36 partitions), and have space available to allocate to the data set, you will not be able to partition any more space (because the maximum number of partitions has been reached); therefore, you will not be able to add another program to the data set.
+	
+
+There are four pieces of information needed that were discussed in the lecture about the space allocation of the data set:
+	1) You need to decide on the space unit: This would be tracks or cylinders.
+		- Whichever you choose is how the storage will be measured.
+	2) You need to decide on the amount of primary quantity space.
+	3) You need to decide on the amount of secondary quantity space.
+	4) You need to decide on the directory block.
+
+
+There are four attributes of the data set that were discussed in the lecture:
+	1) the type of the data set
+	2) the record length of the data set
+	3) the record format of the data set
+	4) the block size of the data set
+
+
