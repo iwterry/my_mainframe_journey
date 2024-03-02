@@ -11,3 +11,9 @@ I also learned that after I login, I can select a TSO environment (among many ot
 Another thing that was discussed in the lecture video was that in order to code, compile, and run COBOL programs, I would need places to store the COBOL programs, load modules, and JCL jobs (given that I am using JCL jobs to execute the load modules). Data sets (specifically, PDS data sets) are used to store these things. There are other types of data sets besides PDS data sets, though.
 
 After I login to the mainframe and select the TSO environment, I learned that I would be presented with a screen that is called the "ISPF Primary Option Menu," where there would be menu options that would allow me to navigate the menu and perform different actions (such as creating data sets).
+
+There are some details that are needed in order to create a data set:
+	- the name of the data set
+	- the location to store the data set on the mainframe
+	- the space allocation for the data set
+	- attributes of the data set
