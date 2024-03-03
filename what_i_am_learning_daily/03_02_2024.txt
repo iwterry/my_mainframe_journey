@@ -2,4 +2,4 @@ date: March 2, 2024
 
 I watched lecture 5 ("Introduction to ZOS-TSO-ISPF Practical") from the first course.
 
-I had my first hands-on experience using mainframes by taking advantage of IBM Z software trials in order to get free access to a mainframe. On that mainframe, I created a couple of PDS data sets and wrote a couple of COBOL programs.
+I had my first hands-on experience using mainframes by taking advantage of IBM Z software trials in order to get free access to a mainframe. On that mainframe, I created a couple of PDS data sets and wrote a couple of really simple COBOL programs.
