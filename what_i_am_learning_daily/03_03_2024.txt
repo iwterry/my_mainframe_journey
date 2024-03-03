@@ -9,6 +9,6 @@ JCL jobs can be used to both compile a COBOL program and execute the load module
 	- If MAXCC=4, the job finished successfully with a warning (which could be safely ignored).
 	- If MAXCC > 4 (such as MAXCC=8 or MAXCC=12), then there is an error.
 
-I am better able to understand how the output of a COBOL program can be viewed after the COBOL program has finished execution. The output can be stored temporarily in a spool and viewed by navigating the ISPF PRIMARY OPTION MENU.
+I am better able to understand how the output of a COBOL program can be viewed after the COBOL program has finished execution. The output can be stored temporarily in a spool and viewed by navigating through the ISPF PRIMARY OPTION MENU.
 
 While I did view lecture 5 yesterday, I did not pay as much attention to the details discussed above because I faced issues with how to compile COBOL programs using JCL. I am using a different setup from the one that the course instructor is using, so I am not able to follow all of the steps in the lecture. While I am not able to compile and execute my COBOL programs, I do have a better understanding of the overall process.
