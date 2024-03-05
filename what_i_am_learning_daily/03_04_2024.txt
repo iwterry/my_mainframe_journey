@@ -1,0 +1,32 @@
+date: March 4, 2024
+
+I watched lecture 6 (which was the same as lecture 2) of the first course. So, I reviewed lecture 2.
+
+I watched the first half of lecture 7 ("COBOL Variable Declaration") of the first course.
+
+The following is what I learned from the first half of lecture 7:
+	- There are two types of COBOL variables: elementary variables and group variables.
+	- A group variable can be subdivided.
+		- Example given in the lecture: bank account (can be subdivided into things like account number,  customer first name, customer last name, account type, account balance)
+	- An elementary variable cannot be subdivided.
+		- Example given in the lecture: bank account balance
+	- The syntax of a COBOL group variable is the following: LEVEL-NUMBER VARIABLE-NAME.
+		- A period directly comes after the variable name.
+	- The syntax of a COBOL elementary variable is the following: LEVEL-NUMBER VARIABLE-NAME PIC
+		- "PIC" comes after the variable name (with whitespace in between the two).
+	- The level numbers are 01, 02,..., 49, 66, 77, and 88.
+		- Level numbers 66, 77, and 88 are special level numbers.
+		- Level number 01 can be used for group variables and elementary variables. 
+		- Level numbers 02,..., 49 must come under group variables with level 01.
+		- When an elementary variable or a group variable is part of another group variable, then the elementary or group variable's level number must be at least one greater than the level number of the group variable that it is part of.
+		- NOTE: It is good practice to have level numbers be odd numbers (01, 03, etc.) or be multiples of 5 (01, 05, 10, etc.).
+		- Example:
+		  01 GRP-VAR-1.
+		    02 GRP-VAR-2.
+		      03 EL-VAR-2-1 PIC
+		      03 EL-VAR-2-2 PIC
+		    02 EL-VAR-2 PIC
+	- The following is information about variable names:
+		- A variable name must not exceed 32 characters, cannot start with a number, cannot be reserved words, and cannot contain spaces.
+		- A variable name should be descriptive of what it represents.
+		
