@@ -7,7 +7,7 @@ I watched the first half of lecture 7 ("COBOL Variable Declaration") of the firs
 The following is what I learned from the first half of lecture 7:
 	- There are two types of COBOL variables: elementary variables and group variables.
 	- A group variable can be subdivided.
-		- Example given in the lecture: bank account (can be subdivided into things like account number,  customer first name, customer last name, account type, account balance)
+		- Example: bank account (can be subdivided into things like account number,  customer first name, customer last name, account type, account balance)
 	- An elementary variable cannot be subdivided.
 		- Example given in the lecture: bank account balance
 	- The syntax of a COBOL group variable is the following: LEVEL-NUMBER VARIABLE-NAME.
