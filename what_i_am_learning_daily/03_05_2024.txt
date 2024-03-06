@@ -6,24 +6,24 @@ The following are some things I learned from the second half of lecture 7:
 	- Two important COBOL variable data types are numeric and alpha-numeric.
 	- While elementary variables have data types, group variables do not have data types. 
 	- The syntax for the numeric variables is the following:
-		LEVEL-NUMBER VARIABLE-NAME PIC 9(NUM-OF-DIGITS).
+	  LEVEL-NUMBER VARIABLE-NAME PIC 9(NUM-OF-DIGITS).
 		
 		- The following is an example of an unsigned numeric variable with a memory space allocation of 3 bytes that is capable of holding only non-negative integers:
-			01 NUMERIC-VAR-1 PIC 9(03).
+		  01 NUMERIC-VAR-1 PIC 9(03).
 		  	- NOTE: The "9" indicates that the variable is a numeric variable.
 		- The following is an example of a signed numeric variable with a memory space allocation of 3 bytes that is capable of holding only integers:
-			01 NUMERIC-VAR-2 PIC S9(03).
+		  01 NUMERIC-VAR-2 PIC S9(03).
 		  	- NOTES:
 				- The "9" indicates that the variable is a numeric variable.
 				- The "S" indicates that the numeric variable is a signed numeric variable.
 		- The following is an example of a signed numeric variable with a memory space allocation of 3 bytes for before the decimal point and 2 bytes for after the decimal point:
-			01 NUMERIC-VAR-3 PIC S9(03)V9(02).
+		  01 NUMERIC-VAR-3 PIC S9(03)V9(02).
 			- NOTES:
 				- The "9" indicates that the variable is a numeric variable.
 				- The "S" indicates that the numeric variable is a signed numeric variable.
 				- The "V" indicates that there is a decimal point and where that decimal point is. This variable holds values with three digits before the decimal point and two digits after the decimal point (e.g., 123.45).
 	- The syntax for the alpha-numeric variables is the following:
-		LEVEL-NUMBER VARIABLE-NAME PIC X(NUM-OF-CHARACTERS).
+	  LEVEL-NUMBER VARIABLE-NAME PIC X(NUM-OF-CHARACTERS).
 		
 		- The following is an example of an alpha-numeric variable with a memory space allocation of 5 bytes:
 		  01 ALPHA-NUM-VAR-1 PIC X(05).
