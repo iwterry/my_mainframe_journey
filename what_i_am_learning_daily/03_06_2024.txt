@@ -1,0 +1,47 @@
+date: March 6, 2024
+
+I watched the second half of lecture 8 ("Accept-Display Statement") and the first half of lecture 9 ("Compute-Practicals") of the first course.
+
+
+Some of the things that I learned from the second half of lecture 8 are the following:
+	- The ACCEPT statement is not used that often in production systems, but it is good to learn when just beginning training on mainframes.
+
+	- The following is an example of using the ACCEPT statement:
+		- In a COBOL program, you can have the following:
+		  ACCEPT VAR1.
+		  ACCEPT VAR2.
+		  ACCEPT VAR3.
+
+		  	- NOTE: I am assuming that the following variable declarations are in the COBOL program:
+			  01 VAR1 PIC X(11).
+			  01 VAR2 PIC 9(03).
+			  01 VAR3 PIC 9(03)V9(2).
+
+		- Your JCL would contain the following to pass the values to the variables:
+		  //SYSIN DD *
+		    HELLO WORLD
+		    123
+		    12345
+		  /*
+
+		- VAR1 would have the value 'HELLO WORLD'.
+		- VAR2 would have the value 123.
+		- VAR3 would have the value 123.45.
+
+	- The DISPLAY statement is used often in production systems.
+
+	- The following is an example of the syntax of a DISPLAY statement used in a COBOL program:
+	  DISPLAY 'HELLO'.
+	  DISPLAY SOME-VAR-1.
+	  DISPLAY 'The value of some-var-1 is: ' SOME-VAR-1.
+
+	  	- NOTE: Where the output from the DISPLAY statement goes depends on the SYSOUT parameter in the DD statement for the JCL. The following line in JCL will have the output of the DISPLAY statement sent to the spool:
+		  //SYSOUT DD SYSOUT=*
+
+	- The DISPLAY statement is useful for auditing purposes and for helping in troubleshooting when errors occur.
+
+
+
+I learned in the first half of lecture 9, the process of checking the spool when there are errors in either the JCL or the Cobol program:
+	- You can tell that there is a JCL error because you will get a message containing "JCL ERROR" after submitting a JCL job in order for the job to run. You can find out more about the JCL error(s) by checking JESYSMSG when in the spool.
+	- You can tell that there is an error in a COBOL program because you will get a message containing something like "MAXCC=8" or "MAXCC=12" when compiling the COBOL program. You can find out more about the COBOL error(s) by checking SYSOUT and SYSPRINT when in the spool. 
