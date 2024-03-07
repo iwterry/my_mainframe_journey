@@ -42,6 +42,6 @@ Some of the things that I learned from the second half of lecture 8 are the foll
 
 
 
-I learned in the first half of lecture 9, the process of checking the spool when there are errors in either the JCL or the Cobol program:
+What I learned in the first half of lecture 9 is the process of checking the spool when there are either JCL errors or COBOL compiler errors:
 	- You can tell that there is a JCL error because you will get a message containing "JCL ERROR" after submitting a JCL job in order for the job to run. You can find out more about the JCL error(s) by checking JESYSMSG when in the spool.
-	- You can tell that there is an error in a COBOL program because you will get a message containing something like "MAXCC=8" or "MAXCC=12" when compiling the COBOL program. You can find out more about the COBOL error(s) by checking SYSOUT and SYSPRINT when in the spool. 
+	- You can tell that there is a COBOL compiler error because you will get a message containing something like "MAXCC=8" or "MAXCC=12" when compiling a COBOL program. You can find out more about the COBOL compiler error(s) by checking SYSOUT and SYSPRINT when in the spool. 
