@@ -1,0 +1,45 @@
+date: March 7, 2024
+
+I watched the second half of lecture 9 ("Compute-Practicals") and all of lecture 10 ("Data Movement - Move Statement") of the first course.
+
+
+
+I learned the following while watching the second half of lecture 9:
+	- Let's say that I create three numeric variables (VAR-1, VAR-2, and VAR-3) with each having an allocation of 1 byte. If I store 5 in VAR-1, 5 in VAR-2, and the sum of VAR-1 and VAR-2 in VAR-3, then you may think that 10 is stored in VAR-3, but 0 is actually stored in VAR-3. This is because of truncation. There is only enough space in VAR-3 to store one digit, and the digit to the right (0) has priority for that space over the digit to the left (1).
+		- Unfortunately, COBOL does not throw an error when data truncation happens like this, but I did learn how to abend (or abruptly end) the program so that it is easier to detect that something went wrong in the COBOL program. I also saw how to write statements in logs in the spool to help give clues as to what is wrong with the program when troubleshooting.
+
+
+
+In lecture 10, I learned how truncation differs between alpha-numeric data and numeric data:
+	- If I want to store 'Yellow' in an alpha-numeric variable with only 4 bytes allocated, then only 'Yell' will be stored in that variable.
+	- If I want to store 123456 in a numeric variable with only 4 bytes allocated, then only 3456 will be stored in that variable.
+
+I learned that the MOVE statement allows for copying a constant or a variable's value into another variable. Assuming VAR-A and VAR-B are alpha-numeric variables with 5 bytes of memory allocated to each, I can do the following:
+	MOVE 'Hello' TO VAR-A.
+	MOVE VAR-A TO VAR-B.
+
+Now, both VAR-A and VAR-B store the value 'Hello'.
+
+It is also possible to copy the values of variables from one group to another group's variables:
+	- Let's assume the following variable declarations:
+		01 GRP-VAR-1.
+		  03 EL-VAR-1 PIC X(5).
+		  03 EL-VAR-2 PIC 9(3).
+		  03 EL-VAR-3 PIC X(3).
+
+		01 GRP-VAR-2.
+		  03 EL-VAR-1 PIC X(5).
+		  03 EL-VAR-2 PIC 9(3).
+		  03 EL-VAR-4 PIC X(3).
+
+	- You can use the following to copy the values:
+		MOVE EL-VAR-1 OF GRP-VAR-1 TO EL-VAR-1 OF GRP-VAR-2.
+		MOVE EL-VAR-2 OF GRP-VAR-1 TO EL-VAR-2 OF GRP-VAR-2.
+		MOVE EL-VAR-3 TO EL-VAR-4.
+
+	- NOTE: The "OF" with the group name syntax is always needed when a variable's name is in more than one group in a COBOL program. (EL-VAR-1 is in two groups, and EL-VAR-2 is in two groups.) It is not needed for the last one because EL-VAR-3 is only in one group and EL-VAR-4 is only in one group.
+
+Errors are possible when using the MOVE statement:
+	- Assume that variable VAR-1 has been declared. Then using "MOVE VAR-1 TO VAR-1." in a COBOL program will result in a compile error because the source (which is VAR1 in this case) is the same as the destination (which is VAR1 in this case) for the MOVE statement. The source and the destination cannot be the same.
+	- Assume that VAR-1 is an alpha-numeric variable with 4 bytes allocated and stores the value '1.23' and that VAR-2 is a numeric variable with 4 bytes allocated and stores the value 1234. Then using "MOVE VAR-1 TO VAR-2" will not result in a compile error, but it will abend the program when attempting to run the COBOL program. The reason for the abend is that VAR-2 was given invalid data (because VAR-2 cannot store decimal values).
+
