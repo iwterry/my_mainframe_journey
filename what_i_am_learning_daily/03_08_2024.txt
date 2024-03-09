@@ -1,0 +1,69 @@
+date: March 8, 2023
+
+I watched lecture 11 ("Conditional - IF Statement") of the first course.
+
+I learned how to write an IF statement in COBOL.
+
+An IF statement allows the program to control the flow of execution (meaning that different statements will be executed) based on the outcome of a variable being tested in the condition. A test of a variable can be as simple as determining whether the variable contains a particular value. If it does, some statement(s) will be executed; if it does not, some other statement(s) will be executed.
+
+Assume VAR-1 is an alpha-numeric variable with 5 bytes of memory allocation and has the value "Hello". The following are syntax examples of using the IF statement:
+	IF VAR-1 = 'World'
+	  DISPLAY 'Something'
+	END-IF.
+	
+	IF VAR-1 = 'World'
+	  DISPLAY 'Something'
+	ELSE
+	  DISPLAY 'Something else'
+	END-IF.
+
+	IF VAR-1 = 'Hello'
+	  DISPLAY 'Something'
+	ELSE
+	  DISPLAY 'Something else'
+	END-IF.
+		
+	IF VAR-1 = 'World'
+	  DISPLAY 'Something'
+	ELSE
+	IF VAR-1 = 'Hello'
+	  DISPLAY 'Hello World'
+	ELSE
+	  DISPLAY 'Something else'
+	END-IF
+	END-IF.
+
+	- NOTES:
+		- In the first example, nothing is displayed.
+		- In the second example, "Something else" is displayed.
+		- In the third example, "Something" is displayed.
+		- In the fourth example, "Hello World" is displayed.
+
+
+The most important thing that I learned was to consider good and bad data when writing a program. It is important to make sure the logic of the program can handle both good data and bad data that it receives.
+
+The last thing that I learned about was the performance tuning of the IF statements. When testing a variable's value against multiple values, choosing the order that the conditions are evaluated can be important for performance. The condition that is more likely to be true should come before the one that is less likely. In this way, the program evaluates fewer conditions.
+
+Assume that VAR-1 is an alpha-numeric variable with 5 bytes of memory allocation.
+
+Assume VAR-1 is most likely to have the value "Hello" and that the next likely value is "Hi". The program should test to see if VAR-1 has the value "Hello" before testing to see if VAR-1 has the value "Hi". This would decrease the number of conditions being evaluated by the program. The following is an example:
+	IF VAR-1 = 'Hello'
+	  DISPLAY 'something'
+	ELSE
+	IF VAR-1 = 'Hi'
+	  DISPLAY 'something else'
+	ELSE
+	  Display 'another thing'
+	END-IF
+	END-IF.
+
+Assume VAR-1 is most likely to have the value "Hi" and that the next likely value is "Hello". The program should test to see if VAR-1 has the value "Hi" before testing to see if VAR-1 has the value "Hello". This would decrease the number of conditions being evaluated by the program. The following is an example:
+	IF VAR-1 = 'Hi'
+	  DISPLAY 'something else'
+	ELSE
+	IF VAR-1 = 'Hello'
+	  DISPLAY 'something'
+	ELSE
+	  Display 'another thing'
+	END-IF
+	END-IF.
