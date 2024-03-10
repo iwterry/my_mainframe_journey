@@ -1,0 +1,5 @@
+date: March 9, 2024
+
+Today, I only practiced on a mainframe computer using IBM Z software trials. I tried figuring out how to compile a COBOL program using JCL. Unfortunately, I ran into JCL errors. I tried searching on Google to figure out the errors, but I was not able to find a solution. I have submitted the JCL code and the error messages to the Udemy course instructor to see if he can provide any guidance.
+
+I was able to get hands-on experience in navigating the log messages in the spool and submitting JCL jobs.
