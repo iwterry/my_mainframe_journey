@@ -1,0 +1,21 @@
+date: March 10, 2024
+
+I was finally able to compile a COBOL program and run it.
+
+The Udemy instructor that I am using to learn about mainframes responded to my request for help by stating that I should start my JCL statements on column 1 (instead of column 8). Starting in column 8 works with COBOL but not with JCL.
+
+Before I read his response, I felt that I should start at column 1, but I was unsure about it. I tried starting at column 1 to test what would happen, but my text editor would not let me; it was inserting numbers in columns 1 through 6 (which is good when doing COBOL). I left things alone after failing to try to start at column 1.
+
+After reading his response, I explored the menu options in my text editor and figured out how to stop my text editor from inserting the numbers in the columns and allow me to start at column 1. I also saw how to do this by using Google. After removing the line numbers and starting the JCL lines in column 1, I submitted a JCL job, but my JCL program still had an error. I thought it was the same error and tried to figure out what to do by using Google and experimenting. After a couple minutes or so, I looked at the logs and saw that I had a different problem. The lesson I learned is that just because I am getting errors before and after trying something does not mean the errors are the same; it is important to check the logs when making a change.
+
+I was able to solve this new error by using a YouTube video. I had an idea of what I should change after looking at the video and the error message. I changed my JCL code and submitted another JCL job. I had no more JCL errors, but I had a COBOL error.
+
+I went to the logs and then queried Google based on the information in the logs. By following a Stack Overflow solution, I changed the data set type for the data set that stores the output of the compiler from "PDS" to "LIBRARY." The Udemy instructor's COBOL compiler outputs load modules, which use the data set type PDS, but the COBOL compiler I was using outputs program objects, which use the data set type LIBRARY. After making the change, I submitted a JCL job and had no JCL or COBOL errors. My COBOL program finally compiled successfully.
+
+I wrote the JCL to run the program object (which was created after compiling the COBOL program). I had no errors after submitting a JCL job. I checked the logs and was able to see my COBOL program's output. All it did was print out "Hello World," but it was a journey to get to that point. It was challenging because I was using a different setup from what the Udemy instructor was using, so I had to find my way around by exploring and experimenting. I learned a lot along the way.
+
+
+
+
+
+
