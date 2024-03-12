@@ -1,0 +1,16 @@
+date: March 11, 2024
+
+I worked through the IBM Z Xplore Fundamentals + Concepts section.
+
+I completed the following three concepts:
+	- Security + Privacy
+	- Enterprise Systems
+	- Systems
+
+I completed the following three challenges:
+	- VSC1
+		- I was able to connect to an IBM Z mainframe using Visual Studio Code.
+	- Files1
+		- I was able to use Visual Studio Code to create, rename, and delete members in an existing PDS data set.
+	- JCL1
+		- I was able to complete several tasks where I needed to make corrections to JCL files so that there were no more errors using Visual Studio Code. Looking through the logs helped with troubleshooting. Through the process of completing the tasks, I learned more about JCL than I had previously. I learned more about its syntax.
