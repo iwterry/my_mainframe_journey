@@ -1,13 +1,13 @@
 date: March 11, 2024
 
-I worked through the IBM Z Xplore Fundamentals + Concepts section.
+I worked through the IBM Z Xplore "Fundamentals + Concepts" section.
 
-I completed the following three concepts:
+I completed the following three concept challenges:
 	- Security + Privacy
 	- Enterprise Systems
 	- Systems
 
-I completed the following three challenges:
+I completed the following three fundamental challenges:
 	- VSC1
 		- I was able to connect to an IBM Z mainframe using Visual Studio Code.
 	- Files1
