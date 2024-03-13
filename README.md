@@ -10,6 +10,8 @@ I plan to work on the following five Udemy courses in order to gain a better und
 
 I am not expecting myself to complete all the courses. That is not the goal. These are courses will be my main learning resources to help me keep focus and provide some direction for my learning.
 
+NOTE: I have earned [the IBM Z Xplore - Concepts badge](https://www.credly.com/badges/54b96efb-eb89-47dc-9f9b-636461fa0da1/public_url). 
+
 ## Goal
 I want to learn something new every day in regards to mainframes and write about some things that I learned. My writings may not be accurate, but that is fine. Life is about making mistakes and learning from. I want to focus on learning daily and striving to be curious and passionate in regards to learning more about mainframes.
 
