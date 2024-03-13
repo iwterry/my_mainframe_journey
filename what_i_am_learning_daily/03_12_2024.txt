@@ -1,0 +1,17 @@
+date: March 12, 2024
+
+I finished working through the IBM Z Xplore "Fundamentals + Concepts" section and earned the IBM Z Xplore - Concepts badge (https://www.credly.com/badges/54b96efb-eb89-47dc-9f9b-636461fa0da1/public_url).
+
+Today, I completed the following two concept challenges:
+	- Uptime
+	- Practitioners
+
+Today, I completed the following four fundamental challenges:
+	- USS
+	- Code
+	- REXX1
+	- Wrap Up
+
+For the "USS" challenge, I was able to connect to USS (Unix System Service). USS is a UNIX environment within z/OS that allows a user to have an experience familiar to those working on Unix-like systems (such as Linux). I connected to USS by using SSH. I worked with different command-line commands (such as touch, cd, mkdir, and pwd). I redirected output to a file and executed a shell script.
+
+For the "Wrap Up" challenge, I looked through some IBM documentation on the Z Open Automation Utilities (ZOAU) Python API to understand how to fix some existing Python code and to know what code to use so that it would work as intended. I also went the extra step to submit some JCL to create a job using the ZOAU Python API and used the documentation to do it.
