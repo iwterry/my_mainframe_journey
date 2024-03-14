@@ -1,0 +1,21 @@
+date: March 13, 2024
+
+I watched lecture 12 ("Conditional and Control Sequence - PERFORM GOTO") from the first course.
+
+Some of the things I learned from the lecture are the following:
+	- the EVALUATE statement in COBOL
+	- the CONTINUE statement and NEXT sentence
+	- successfully exiting a COBOL program using the following statements:
+		- STOP RUN
+		- EXIT PROGRAM
+		- GOBACK 
+	- the PERFORM statement in COBOL
+		- loops in COBOL with the PERFORM statement
+		- ending loop after a fixed number of iterations
+		- ending loop after a condition becomes true
+
+The biggest takeaway from the lecture was to pay attention to how to end a loop. In the lecture, there was an example given where the loop should end when a particular numerical variable with a memory allocation of two bytes has a value greater than 100. Right before the loop began, the variable had a value of 1, and each time through the loop, the variable's value was incremented by 1. 
+
+When the variable had a value of 99 and was incremented by 1, the variable had a value of 0. The reason was that the variable's memory allocation only allowed for storing two digits, so truncation occurred when trying to store 100, and only the last two digits of 100 were stored in the variable, leading to the variable having a value of 0. Because the variable can never have a value greater than 100, the loop never terminated. Thus, an infinite loop was created.
+
+When this infinite loop was revealed in the lecture, I was shocked because I forgot that the variable could not have a value with three digits. I learned to make sure that a variable can hold a value that would make it possible for the loop condition to become true so that the loop will end.
