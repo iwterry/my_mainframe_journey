@@ -1,0 +1,9 @@
+date: March 14, 2024
+
+I watched lecture 13 ("Control Sequence - PERFORM - GOTO - PRACTICAL") from the first course.
+
+I learned how to better structure a COBOL program by using paragraphs to do a top-down approach to programming and modular programming. A paragaph to solve a problem was broken into smaller, more manageable paragraphs, with each tackling a different aspect of that problem in order to code up a solution. Breaking a problem into smaller parts allows one to concentrate on the smaller subproblem instead of the bigger problem. I am going to have to take some time to better understand the approach to coding discussed in the lecture.
+
+The approach to numbering paragraphs was discussed. The approach introduced helps to better understand the flow of the program's execution so that it is easier to troubleshoot error messages in the logs.
+
+In an example discussed in the lecture, I was able to better understand the use of the GO TO statement and EXIT statement in COBOL.
