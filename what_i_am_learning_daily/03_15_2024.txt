@@ -1,0 +1,26 @@
+date: March 15, 2024
+
+I watched the first half of lecture 14 ("FILE Concepts Theory") from the first course.
+
+I learned about some things to include in the FILE-CONTROL paragraph of the ENVIRONMENT DIVISION and the FILE SECTION and WORKING-STORAGE SECTION of the DATA DIVISION of a COBOL program when dealing with files.
+
+I learned about the following:
+	- the SELECT statement (and its usage in helping link a file between COBOL and JCL)
+	- the different file organizations:
+		- SEQUENTIAL
+		- INDEXED
+	- the different access modes:
+		- SEQUENTIAL
+		- RANDOM
+		- DYNAMIC
+	- the file status (in order to determine the success or failure of a file operation)
+
+In the FILE-CONTROL paragraph of the ENVIRONMENT DIVISION, the following are provided for each data file:
+	- SELECT statement
+	- organization type
+	- access mode
+	- which variable to be used for file status
+
+In the FILE SECTION of the DATA DIVISION, the file record layout is provided for each data file to provide field information about a record in a data file.
+
+In the WORKING-STORAGE SECTION of the DATA DIVISION, a variable for each data file is defined that can hold the file status for a data file.
