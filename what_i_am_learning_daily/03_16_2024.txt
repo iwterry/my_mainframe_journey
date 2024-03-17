@@ -1,0 +1,17 @@
+date: March 16, 2024
+
+I watched all but the last 15 minutes of the second half of lecture 14 ("FILE Concepts Theory") from the first course.
+I watched 46 minutes of lecture 15 ("FILE Concepts Part-2") from the first course.
+
+
+From the second half of lecture 14, I saw how to do the following in COBOL:
+	- open files for either reading or writing
+	- read one or all records from a file
+	- write a record to a file
+	- close files
+
+For lecture 15, I saw how the INITIALIZE statement in COBOL can make it easier to initialize group variables. I watched the instructor code a program that accepts data from JCL and outputs data to a file. I typed along in Notepad to get myself used to writing the lines of code and to help myself digest the material.
+
+
+
+
