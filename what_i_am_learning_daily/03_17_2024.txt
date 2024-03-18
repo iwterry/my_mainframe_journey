@@ -1,0 +1,18 @@
+date: March 17, 2024
+
+I watched lecture 16 ("FILE Concepts Part-3 COPYBOOK Run JCL") from the first course.
+
+
+I learned about copybooks in COBOL and how they can be used for variable declarations (in particular, data set record layouts). Copybooks are reusable pieces of COBOL code that can be used by other COBOL programs. Copybooks are useful for record layouts because a record layout only needs to be defined in one place and can then be used by many other programs without having to define the same record layout again and again. 
+
+To use a copybook in a COBOL program, the COPY statement is used, and in the JCL for compiling the program, the SYSLIB DD statement can be used to provide the location of the copybook being used.
+
+I learned how to write the JCL used for running COBOL programs that involve reading from and writing to files. I also learned about which parameters in the DD statement (in JCL) are necessary when using input data files versus when creating new output data files. 
+
+Two important parameters in a DD statement are DNS and DISP:
+	- DSN is used to specify a data set name.
+		- NOTE: Specifying a member of a PDS data set is different from specifying a file name for a PS data set.
+	- DISP is used to specify the following about a data set:
+		- status of the data set (such as either a data set to be created or an existing data set capable of being shared with other programs)
+		- what happens to the data set after the program successfully terminates (such as either deleting the data set or saving the data set)
+		- what happens to the data set after the  program abnormally terminates (such as either deleting the data set or saving the data set)
