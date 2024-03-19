@@ -22,4 +22,4 @@ The value -49 would be printed as 4R (assumming two bytes of memory space alloca
 
 I played around with calculations by using the COMPUTE statement, SUBTRACT statement, and ADD statement. I also used the SIZE ERROR PHRASE to handle the issues that occur when I have more digits than the space I have allocated to store them. 
 
-I spent a lot of time running different examples that I could think of to see how things worked, and I looked at the logs in the spool for what the numbers looked like and any error messages that I received.
+I spent a lot of time running different examples that I could think of to see how things worked, and I looked at the logs in the spool for what the numbers looked like and any error messages that I received. I learned what to provide and what not to provide as values in JCL so that my COBOL program variables will get the appropriate input values using the ACCEPT statement.
