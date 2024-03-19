@@ -1,0 +1,25 @@
+date: March 18, 2024
+
+I did hands-on practice with IBM mainframes.
+
+I experimented with COBOL by writing programs that used the ACCEPT statement. I wanted to see what happened when I provided values for decimal numbers, signed numbers, and signed decimal numbers in JCL to my COBOL program variables. 
+
+For signed decimal numbers, I could not provide fewer characters to a variable than the number of digits expected without the program abnormally terminating.
+
+For decimal numbers, I could not provide a decimal point with my numbers without the program abnormally terminating.
+
+What I experienced with signed numbers was that the last byte represents both a digit and whether the number as a whole is positive or negative when getting input from JCL or outputting the numbers to the spool. See the following examples:
+	- The character { is +0 (positive 0).
+	- The character A is +1 (positive 1).
+	- The character B is +2 (positive 2).
+	- The character I is +9 (positive 9).
+	- The character } is -0 (negative 0).
+	- The character J is -1 (negative 1).
+	- The character K is -2 (negative 2).
+	- The character R is -9 (negative 9).
+
+The value -49 would be printed as 4R (assumming two bytes of memory space allocated for a signed non-decimal number) to the spool.
+
+I played around with calculations by using the COMPUTE statement, SUBTRACT statement, and ADD statement. I also used the SIZE ERROR PHRASE to handle the issues that occur when I have more digits than the space I have allocated to store them. 
+
+I spent a lot of time running different examples that I could think of to see how things worked, and I looked at the logs in the spool for what the numbers looked like and any error messages that I received.
