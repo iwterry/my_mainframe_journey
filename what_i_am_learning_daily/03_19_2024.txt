@@ -1,0 +1,9 @@
+date: March 19, 2024
+
+I continued practicing hands-on on an IBM mainframe.
+
+I have learned how to better use the ISPF editor so that I can insert, delete, repeat, copy, cut, and paste lines in the editor. I used Google to help me learn some of these things. I also found the same information I learned from Google or the first Udemy course by going through the documentation. I went through the documentation because I wanted to be more familiar with being able to look up information by using the documentation in it.
+
+I created a COBOL program to practice DISPLAY, ACCEPT, and MOVE statements. The program involved accepting input from JCL into input variables, moving the values from the input variables to output variables, and outputing the information from the output variables to the spool. I created two group variables, with each having 10 elementary variables.
+
+I created another COBOL program to practice DISPLAY, ACCEPT, MOVE, and IF statements. I tested the program with different test cases to make sure that it was working as expected. The program was abnormally terminated when invalid inputs were used for certain variables. I used IF statements to validate two different variables to get more practice with the IF statement.
