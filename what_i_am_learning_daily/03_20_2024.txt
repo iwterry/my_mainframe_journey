@@ -1,0 +1,5 @@
+date: 03/20/2024
+
+I practiced on an IBM mainframe. I created a COBOL program that used PERFORM statements and looping. I worked on debugging by making guesses and looking for evidence to determine where the issues were. The evidence was gathered by printing to the spool and using rubber-duck debugging to understand what was occurring in the program.
+
+Although I made many mistakes as I was developing the program, the mistakes helped me get a better understanding of programming in COBOL.
