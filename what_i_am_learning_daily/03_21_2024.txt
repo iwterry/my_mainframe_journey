@@ -1,0 +1,3 @@
+date: March 21, 2024
+
+I continued practicing my COBOL programming by developing programs from the first Udemy course. I challenged myself to come up with the logic for the programs before watching the Udemy instructor do it. I then looked at what the instructor was doing and learned from him about things that I could do better.
