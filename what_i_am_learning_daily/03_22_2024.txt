@@ -1,0 +1,12 @@
+date: March 22, 2023
+
+
+I again focused only on hands-on practice with an IBM mainframe. I gained hands-on experience with developing COBOL programs that read from and write to files and that made use of copybooks for reusability of code. 
+
+It took me some time to figure out how things work when using files with COBOL programs. Many times, my program abnormally terminated, and I could not figure out why. There were many new things I was learning, so I was not sure where my mistake was.
+
+I thought I did not have permission to use the mainframe to create PS data sets using COBOL. When I looked at the logs for JCL, I could see that my data set was being created. I placed some print statements in my code and used them to determine what line in the code was causing the issue. I found the line and changed where I put the line, and things worked.
+
+I learned that group variables in the FILE SECTION (of the DATA DIVISION) should be initialized using the INITIALIZE statement after the file has been opened. My mistake was that I was doing it before I opened the files. The Udemy instructor waited to initialize the file group variables until after the files were opened, but I did not know why. Now, I have experienced why.
+
+Today (just like the past couple of days) was filled with a lot of googling and looking through logs in order to find problems and provide solutions.
