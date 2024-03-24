@@ -1,0 +1,18 @@
+date: March 23, 2024
+
+I watched lecture 17 ("Data Security - Memory Saving") from the first course.
+
+I learned that to achieve data security and save memory space with numeric data, I should use binary and hexadecimal formats. By default, numeric data is stored in the character format, but the character format uses more memory compared to the other two formats and is not secure because the data would be stored in a readable format.
+
+I learned that to achieve data security and save memory space with alpha-numeric data, I should code the data. For example, assume that an alpha-numeric variable can only take the values 'VAL-A', 'VAL-B', and 'VAL-C'. I could code the alpha-numeric variable data to achieve data security and save memory space by having the variable only take the values 'A' (instead of 'VAL-A'), 'B' (instead of  'VAL-B'), and 'C' (instead of 'VAL-C'). Note that data security and memory savings can only be achieved for alpha-numeric variables that take on a limited number of values (such as a status code or a billing code) and not for those that take unlimited values (such as a person's name, a company's name, or a street address). 
+
+When I need the numeric data that is stored in binary and hexadecimal format to be readable, I can use copybooks and file management tools (such as IBM File Manager). If I have a file that stored numeric data in hexadecimal format, then I can use the "HEX ON" command while viewing the file in the ISPF editor in order to make the numeric data readable.
+
+When I need the alpha-numeric data to be more readable, I can use the level number 88. See the following example of a use of level number 88:
+  01 ALPHA-NUM-VAR-1 PIC X(01).
+    88 VAL-A VALUE 'A'.
+    88 VAL-B VALUE 'B'.
+    88 VAL-C VALUE 'C'.
+
+This way, I can understand what the values 'A', 'B', and 'C' mean in both my programs and data files when I see them as values for the alpha-numeric variable ALPHA-NUM-VAR-1.
+
