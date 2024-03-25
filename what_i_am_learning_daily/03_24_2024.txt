@@ -1,0 +1,12 @@
+date: March 24, 2024
+
+I watched lecture 18 ("Redefines and Matching Logic") from the first course.
+I watched the first half of lecture 19 ("Occurs Variable Declaration") from the first course.
+
+
+In lecture 18, I learned about the following:
+	- using REDEFINES clause and the FILLER keyword
+	- using level number 66 with the RENAMES clause
+	- using matching logic in a COBOL program that takes two input files
+
+In the first half of lecture 19, I learned about using the OCCURS clause.
