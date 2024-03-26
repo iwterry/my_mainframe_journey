@@ -1,0 +1,14 @@
+date: March 25, 2023
+
+I watched the second half of lecture 19 from the first course.
+I watched lecture 20 from the first course.
+
+I learned how to access the data of a variable declared with the OCCURS clause using subscript variables and values.
+
+I learned that accessing a memory location not allocated for an occurs variable (which is a variable declared with the OCCURS clause) will result in the programming abnormally terminating.
+
+I learned about the PERFORM VARYING syntax that is used for looping.
+
+I learned about the SEARCH ALL (which uses binary search) and SEARCH (which uses linear search) statements and how they both make use of an index for doing their searches. An index can be created for an occurs variable using the INDEXED BY syntax when the variable is being declared.
+
+I was introduced to the lookup logic for a COBOL program that accepts two input files (one main file and one reference file). I still have some work to do to better understand both lookup logic and matching logic. I will review both of these approaches soon.
