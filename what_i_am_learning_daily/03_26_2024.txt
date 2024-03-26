@@ -1,0 +1,22 @@
+date: March 26, 2024
+
+I watched lecture 21 ("CALL Statement - Sub-Program") from the first course.
+I watched 30 minutes of lecture 22 ("String Handling - Sub-Program Practical's") from the first course. I speed watched through the rest of lecture 22. I will go back over it when I am doing more hands-on practice later on.
+
+
+
+In lecture 21, I learned the difference between dynamic and static CALL statements.
+
+I learned that the main program uses the CALL statement to transfer control to a subprogram and sends data to and receives data from the subprogram by using variables used in the CALL statement with the "USING" syntax.
+
+I learned the difference between call by reference and call by content, which are both ways that the main program can pass data to a subprogram.
+ 
+I learned variables passed to a subprogram from the main program are declared in LINKAGE SECTION of the DATA DIVISION.
+
+I learned that the GOBACK statement or the EXIT PROGRAM statement can be used in a subprogram to return control back to the main program.
+	
+
+
+In lecture 22, I learned about some statements in COBOL that are used for dealing with strings: STRING statement, UNSTRING statement, and INSPECT statement.
+
+I learned about reference modification, which helps get a substring of data held in an alpha-numeric variable.
