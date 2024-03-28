@@ -5,10 +5,12 @@ I did a little playing around with COBOL.
 I wrote my first comment line and my first in-line comment. I can do a comment by placing an asterick in column 7 of a COBOL program, and I can do an inline comment by placing an asterick immediately followed by the greater-than sign.
 
 I thought that the following command inside an IF statement would result in a syntax error, but it did not:
-  DISPLAY 'HELLO '
-    'WORLD'
+  IF SOME-ALPHA-NUM-VAR = 'HELLO'
+    DISPLAY 'HELLO '
+      'WORLD'
+  END-IF.
 
-Things worked fine by doing it that way. 
+Things worked fine by doing it that way. I am assuming that the alpha-numeric variable SOME-ALPHA-NUM-VAR exist.
 
 I thought that writing "DISPLAY 'HELLO' DISPLAY 'HELLO'" in COBOL would result in a syntax error, but it did not. 
 
