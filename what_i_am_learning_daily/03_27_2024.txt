@@ -10,7 +10,7 @@ I thought that the following command inside an IF statement would result in a sy
       'WORLD'
   END-IF.
 
-Things worked fine by doing it that way. I am assuming that the alpha-numeric variable SOME-ALPHA-NUM-VAR exist.
+Things worked fine by doing it that way. I am assuming that the alpha-numeric variable SOME-ALPHA-NUM-VAR exists.
 
 I thought that writing "DISPLAY 'HELLO' DISPLAY 'HELLO'" in COBOL would result in a syntax error, but it did not. 
 
