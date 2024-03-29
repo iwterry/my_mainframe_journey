@@ -1,0 +1,18 @@
+date: March 28, 2024
+
+I continued spending time doing hands-on practice with COBOL.
+
+I challenged myself to come up with an example that involved different aspects of COBOL. It is a work in progress. I will write more about it tomorrow, as I am still working on it.
+
+One thing that I learned today is that when comparing alpha-numeric values, COBOL does not care about the trailing white-space characters of the values when comparing them with the equality sign. 
+
+For example, let VAR-1 be an alpha-numeric variable with 7 bytes of memory allocation and having the value 'HELLO  '. Let VAR-2 be an alpha-numeric variable with 5 bytes of memory allocation and having the value 'HELLO'. 
+
+If I do the following in COBOL:
+  IF VAR-1 = VAR-2
+    DISPLAY 'TRUE'
+  ELSE
+    DISPLAY 'FALSE'
+  END-IF.
+
+The value 'TRUE' will be displayed. This was different from what I thought. I thought because I was using the equality sign that trailing white-space characters would matter, but they do not.
