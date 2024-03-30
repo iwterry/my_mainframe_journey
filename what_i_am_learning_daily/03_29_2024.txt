@@ -1,0 +1,32 @@
+date: March 29, 2024
+
+I continued working on what I was doing yesterday with practicing COBOL.
+
+I created COBOL programs that made use of different features. The screenshots for the programs and copybooks can be seen at https://github.com/iwterry/my_mainframe_journey/tree/main/mainframe_cobol_developer_training/screenshots/03_29_2024.
+
+Unfortunately, I encountered an issue with linking subprograms while compiling using JCL. I have not been able to resolve the issue. It has something to do with how the system is configured for the mainframe I was using with the IBM Z trials. 
+
+I was able to practice the concept of using and calling subprograms with Visual Studio Code and the mainframe for the IBM Z Xplorer content. 
+
+I practiced concepts related to the following:
+	- copybooks (to improve reusability)
+	- level number 88 (and data coding)
+	- OCCURS statement
+	- REDEFINES clause
+	- IF statement
+	- MOVE statement
+	- reading to and writing from files
+	- writing and calling subprograms
+	- DISPLAY statement
+	- ACCEPT statement
+	- USAGE IS clause (to use the COMP-3 format for numeric data to improve data security and save memory)
+	- PERFORM statement
+		- PERFORM THRU syntax
+		- PERFORM UNTIL syntax
+		- PERFORM VARYING syntax
+	- COMPUTE and ADD statements (for do mathematical operations)
+
+
+I did a lot of looking through the logs to troubleshoot issues relating to syntax errors and logic mistakes.
+
+I put in a lot of work and gained so much by making mistakes and learning from them with having to come up with something on my own to practice different concepts. I feel glad, but I also feel a bit disappointed that things did not work out with the IBM Z trial mainframe.
