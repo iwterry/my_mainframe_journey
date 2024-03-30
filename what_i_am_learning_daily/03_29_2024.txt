@@ -30,3 +30,11 @@ I practiced concepts related to the following:
 I did a lot of looking through the logs to troubleshoot issues relating to syntax errors and logic mistakes.
 
 I put in a lot of work and gained so much by making mistakes and learning from them with having to come up with something on my own to practice different concepts. I feel glad, but I also feel a bit disappointed that things did not work out with the IBM Z trial mainframe.
+
+##################### UPDATE for March 30, 2024 below ########################
+I could not stop thinking about how to solve the issue of linking with subprograms. I saw a webpage that was useful for giving me something to try, and it worked. The solution made a lot of sense to me, too. I just needed to add a line in my JCL that compiles COBOL. That line was dealing with the LKED.SYSLIB DD statement.
+
+I have added the JCL screenshots.
+
+I was able to accomplish what I wanted. It took a lot of effort and frustration, but it felt really good to get things working.
+
