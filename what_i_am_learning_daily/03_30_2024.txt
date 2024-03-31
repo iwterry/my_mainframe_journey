@@ -1,0 +1,9 @@
+date: March 30, 2024
+
+I used COBOL to gain my first hands-on practice with the following:
+	- reference modification (which allows me create substrings)
+	- STRING statement     (which allows me to concatenate strings)
+	- UNSTRING statement   (which allows me to split a string into multiple strings based on a delimiter)
+	- INSPECT statement with the TALLYING syntax (which allows me to count the occurrences of characters in different circumstances)
+
+I played around with concepts by coming up with simple examples to get a better understanding of how they work. 
