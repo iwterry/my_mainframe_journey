@@ -1,0 +1,21 @@
+date: March 31, 2024
+
+I continued hands-on practice with COBOL.
+
+I learned how to work with dates in COBOL by using the following instrinsic functions: 
+	- CURRENT-DATE
+	- INTEGER-OF-DATE
+	- DATE-OF-INTEGER
+
+With the help of these functions, I was able to do the following:
+	- get the current date
+	- calculate the number of days between two dates
+	- calculate a new date by adding (or subtracting) a number of days to (or from) a given date
+
+I practiced the INSPECT statement with the REPLACE syntax to replace some characters in a string.
+
+I practiced finding the number of characters (without including the number of trailing spaces) in a string. I successfully recalled the solution that was shown in lecture 22 of the first Udemy course.
+
+I am now working on file processing that involves matching logic and lookup logic so that I can get a better understanding of these two.
+
+I started working on the matching logic, but I have to debug my program to fix some issues that I am having.
