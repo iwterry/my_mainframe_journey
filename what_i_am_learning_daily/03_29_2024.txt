@@ -11,7 +11,7 @@ I was able to practice the concept of using and calling subprograms with Visual 
 I practiced concepts related to the following:
 	- copybooks (to improve reusability)
 	- level number 88 (and data coding)
-	- OCCURS statement
+	- OCCURS clause
 	- REDEFINES clause
 	- IF statement
 	- MOVE statement
