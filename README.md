@@ -2,7 +2,7 @@
 This repository will be used for my journey into learning about the world of mainframe computers.
 
 I plan to work on the following five Udemy courses in order to gain a better understanding of working with mainframe computers:
-  1. [Mainframe COBOL Developer Training By Anil Polsani](https://www.udemy.com/course/cobol-by-anilpolsani/)
+  1. [Mainframe COBOL Developer Training By Anil Polsani](https://www.udemy.com/course/cobol-by-anilpolsani/) [Completed](https://www.udemy.com/certificate/UC-dbb842f1-bb16-4284-a80d-d4bdb76fd7d5/)
   2. [Mainframe JCL Developer-Support Training By Anil Polsani](https://www.udemy.com/course/mainframe-jcl-developer-support-training-by-anil-polsani/)
   3. [Mainframe DB2 Developer Training By Anil Polsani](https://www.udemy.com/course/mainframe-db2-developer-training-by-anil-polsani/)
   4. [Mainframe CICS Developer Training By Anil Polsani](https://www.udemy.com/course/mainframe-cics-developer-training-by-anil-polsani/)
