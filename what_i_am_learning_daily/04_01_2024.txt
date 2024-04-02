@@ -1,0 +1,11 @@
+date: April 1, 2024
+
+I continued practicing with COBOL.
+
+I debugged and finished the COBOL program for matching logic that I started yesterday.
+
+I wrote a program that used lookup logic to combine data from two files and another program that used lookup logic to combine data from a file and a copybook.
+
+In the process of learning how to store data in a copybook, I learned more about the OCCURS clause and the REDEFINES clause in COBOL.
+
+I am more comfortable with matching logic and lookup logic after doing the programs. The programs and information about them can be seen at https://github.com/iwterry/my_mainframe_journey/tree/main/mainframe_cobol_developer_training/programs/04_01_2024.
