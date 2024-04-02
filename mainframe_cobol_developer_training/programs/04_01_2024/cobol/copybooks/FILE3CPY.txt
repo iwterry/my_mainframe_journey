@@ -1,0 +1,9 @@
+       01 FILE3-REC-LAYOUT.
+         03 CITY-ID PIC X(02).
+         03 PERSON-ID PIC X(02).
+         03 PERSON-NAME PIC X(15).
+         03 CITY-NAME PIC X(15).
+         03 STATE-NAME PIC X(15).
+
+      * NOTE: This copybook uses the combined fields from FILE1CPY
+      *   and FILE2CPY copybooks.

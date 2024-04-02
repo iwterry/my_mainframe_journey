@@ -1,0 +1,9 @@
+       01 FILE2-REC-LAYOUT.
+         03 CITY-ID PIC X(02).
+         03 CITY-NAME PIC X(15).
+         03 STATE-NAME PIC X(15).
+         03 PERSON-ID PIC X(02).
+
+
+      * NOTE: This copybook has PERSON-ID, which should align with
+      *  how PERSON-ID is declared in FILE1CPY copybook.

@@ -1,0 +1,3 @@
+       01 FILE1-REC-LAYOUT.
+         03 PERSON-ID PIC X(02).
+         03 PERSON-NAME PIC X(15).
