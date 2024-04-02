@@ -1,12 +1,12 @@
 There are three input PS data files:
-	- CBLPRAC.FILE1
-		- consists of fake data for a person's id number and person's name
-		- is sorted in ascending order by a person's id number
-	- CBLPRAC.FILE2
-		- consists of fake data for a city's id number, city's name, the state the city is in, and the person's id number that lives in that city
-		- is sorted in ascending order by a person's id number 
-	- CBLPRAC.FILE3
-		- consists of same data as CBLPRAC.FILE2, but the data is sorted in ascending order by the city's id number
+  - CBLPRAC.FILE1
+    - consists of fake data for a person's id number and person's name
+    - is sorted in ascending order by a person's id number
+  - CBLPRAC.FILE2
+    - consists of fake data for a city's id number, city's name, the state the city is in, and the person's id number that lives in that city
+    - is sorted in ascending order by a person's id number 
+  - CBLPRAC.FILE3
+    - consists of same data as CBLPRAC.FILE2, but the data is sorted in ascending order by the city's id number
 
 The three data files were generated using the COBOL program CBLPRAC1 and the JCL file JCLPRAC1. 
 
