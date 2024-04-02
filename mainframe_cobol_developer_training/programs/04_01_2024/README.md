@@ -37,8 +37,9 @@ The goal of all this is to practice matching and lookup logic with COBOL based o
 
 
 ## Where are the files located?
-The COBOL files are located in the directory called "cobol."
-The copybooks are located in the directory called "copybooks," which is inside the cobol directory.
-The JCL files are located in the directory called "jcl."
-The PS data files are located in the directory called "data-files-created."
+- The COBOL files are located in the directory called "cobol."
+- The copybooks are located in the directory called "copybooks," which is inside the cobol directory.
+- The JCL files are located in the directory called "jcl."
+- The PS data files are located in the directory called "data-files-created."
+
 All files are stored as text files with the "txt" extension.
