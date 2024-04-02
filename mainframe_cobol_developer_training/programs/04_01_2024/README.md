@@ -12,7 +12,7 @@ The three data files were generated using the COBOL program CBLPRAC1 and the JCL
 
 NOTE: For the input data files, there is no situation where a city is lived in by multiple people, but a person can live in multiple cities.
 
-In this fictional example, the scenario is to use COBOL to create files that combine the information in these files using different approaches in order to create new PS data files.
+In this fictional example, the scenario is to use COBOL to combine the information in these files using different approaches in order to create new PS data files.
 
 ## Approach 1
 With both CBLPRAC.FILE1 and CBLPRAC.FILE2 sharing a common field (a person's id number) and both being sorted in ascending order by a person's id number, matching logic will be used to combine the information of both files to create a new PS data file called CBLPRAC.FILE4.
