@@ -1,0 +1,5 @@
+date: April 6, 2024
+
+I have practiced COBOL with videos 13 and 15 from the YouTube playlist located at https://www.youtube.com/playlist?list=PLlTr7U0S0wdEVeZOHshsbGItV2KlCdNWQ.
+
+I finished the relevant videos from the playlist that dealt with the file programming project.
