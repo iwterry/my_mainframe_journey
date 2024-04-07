@@ -12,4 +12,4 @@ I used the following videos from the playlist:
   9) https://www.youtube.com/watch?v=6hQxJO7lzjY
   10) https://www.youtube.com/watch?v=6mRMtR_uUpw
 
-There are no videos for some of the later parts of the file programming project, so I made my own payment file and created the remaining COBOL programs using that file to complete the file programming project.
+I was not able to find videos for some of the later parts of the file programming project, so I made my own payment file and created the remaining COBOL programs using that file to complete the file programming project.
