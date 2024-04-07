@@ -1,0 +1,7 @@
+       01 CC-TRAN-LAYOUT.
+         03 CARD-NUMBER PIC X(05).
+         03 TRANS-POS-DETAILS PIC X(20).
+         03 TRANS-TYPE PIC X(10).
+         03 TRANS-STATUS PIC X(10).
+         03 TRANS-AMOUNT PIC S9(05)V9(02).
+         03 TRANS-DATE PIC X(10).

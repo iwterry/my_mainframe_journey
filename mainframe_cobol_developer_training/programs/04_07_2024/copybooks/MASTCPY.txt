@@ -1,0 +1,19 @@
+       01 CC-LAYOUT.
+         03 CARD-NUMBER PIC X(05).
+         03 CUST-NAME PIC X(10).
+         03 CARD-LIMIT PIC S9(05)V9(02).
+         03 PREVIOUS-DUE PIC S9(05)V9(02).
+         03 PREVIOUS-DUE-PAID PIC S9(05)V9(02).
+         03 CARD-TYPE PIC X(01).
+           88 GOLD-CARD VALUE '1'.
+           88 SILVER-CARD VALUE '2'.
+           88 PLATINUM-CARD VALUE '3'.
+         03 REWARD-POINT-CODE PIC X(01).
+           88 REWARD-100-1 VALUE 'A'.
+           88 REWARD-100-2 VALUE 'B'.
+           88 REWARD-100-3 VALUE 'C'.
+         03 CARD-EXPIRE-DATE PIC X(08).
+         03 CUST-ACTIVE-IND PIC X(01).
+           88 ACTIVE-CUST VALUE 'A'.
+           88 INACTIVE-CUST VALUE 'I'.
+         03 LAST-BILL-DATE PIC X(08).

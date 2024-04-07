@@ -1,0 +1,7 @@
+       01 CC-BILL-LAYOUT.
+         03 CARD-NUMBER PIC X(05).
+         03 CUST-NAME PIC X(10).
+         03 TOTAL-AMOUNT PIC S9(05)V9(02).
+         03 MIN-DUE PIC S9(05)V9(02).
+         03 BILL-DATE PIC X(08).
+         03 DUE-DATE PIC X(08).
