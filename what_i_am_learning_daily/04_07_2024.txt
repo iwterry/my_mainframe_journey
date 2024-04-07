@@ -1,0 +1,5 @@
+date: April 7, 2024
+
+I worked on finishing up the portion of the file programming project from the YouTube playlist located at https://www.youtube.com/playlist?list=PLlTr7U0S0wdEVeZOHshsbGItV2KlCdNWQ that had no videos.
+
+Over the past four days, I developed 11 COBOL programs for the file programming project. The programs can be seen at  https://github.com/iwterry/my_mainframe_journey/tree/main/mainframe_cobol_developer_training/programs/04_07_2024.
