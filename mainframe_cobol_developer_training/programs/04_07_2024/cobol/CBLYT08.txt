@@ -59,14 +59,11 @@
              UNTIL WS-ANY-MORE-INPUT-MASTER2 = 'N'.
 
            IF WS-ANY-MORE-INPUT-BILL = 'Y'
-               PERFORM 200-GET-INPUT-PARA THRU 200-EXIT-PARA
-               IF WS-ANY-MORE-INPUT-BILL = 'Y'
-                 DISPLAY 'ERROR IN 000-MAIN-PARA'
-                 DISPLAY 'CARD NUMBER ' CARD-NUMBER OF BILL-LAYOUT-IN 
-                  ' NOT FOUND IN MASTER2-IN'
-                 CALL WS-ABENDPGM
-               END-IF
-            END-IF.
+             DISPLAY 'ERROR IN 000-MAIN-PARA'
+             DISPLAY 'CARD NUMBER ' CARD-NUMBER OF BILL-LAYOUT-IN 
+               ' NOT FOUND IN MASTER2-IN'
+             CALL WS-ABENDPGM
+           END-IF.
 
            CLOSE BILL-FILE-IN
                  MASTER2-FILE-IN
