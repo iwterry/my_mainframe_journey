@@ -1,0 +1,21 @@
+date: April 8, 2024
+
+I watched the 4th lecture ("JCL Parameters - JOB Statement") from the second course.
+
+I learned about the JCL parameters for the JOB statement.
+
+The first positional parameter provides account information, which is done for billing purposes.
+
+The second positional parameter provides the programmer's (or group's) name for the job.
+
+The following are the keyword parameters for the JOB statement that I learned about:
+	- NOTIFY
+	- CLASS
+ 	- TIME
+	- REGION
+	- PRTY
+	- MSGCLASS
+	- MSGLEVEL
+	- RESTART
+
+The positional parameters must come before the keyword parameters.
