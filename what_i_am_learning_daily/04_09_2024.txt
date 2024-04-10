@@ -1,0 +1,19 @@
+date: April 9, 2024
+
+I watched the 5th lecture ("JCL Parameters - EXEC Statement") from the second course.
+
+I learned about the PGM and PROC parameters for the EXEC statement in JCL:
+	- The PGM parameter is used to tell which program to execute, while the PROC parameter is used to tell which procedure to execute.
+	- The following is an example of using the PGM parameter:
+	  //STEPNAME EXEC PGM=PGMNAME
+	- The following is an example of using the PROC parameter:
+	  //STEPNAME EXEC PROC=PROCNAME
+	- If neither the PGM nor PROC keyword is used, it is assumed that a procedure will be executed. The following is an example when neither keyword is used:
+	  //STEPNAME EXEC PROCNAME
+
+
+I learned about the COND parameter. The COND parameter can be used on an EXEC statement to tell when to skip a job step (based on a return code) or when to execute a job step (based on whether a job step was abnormally terminated).
+
+I also learned about using the IF statement in JCL. I found using the IF statement much easier to understand compared to using the COND parameter on an EXEC statement. The fifth lecture did not discuss the IF statement in JCL. I learned about the IF statement by searching online while I was trying to get a better understanding of the COND parameter.
+
+I practiced using the IF statement in my own JCL code, and it felt good to get some hands-on experience with it. I saw which job steps would be executed and which would be skipped by experimenting with the conditions for my IF statements and having my COBOL programs have errors or abending.
