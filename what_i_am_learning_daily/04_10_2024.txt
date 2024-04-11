@@ -1,0 +1,12 @@
+date: April 10, 2024
+
+I watched the 6th lecture ("JCL Parameters - DD Statement") from the second course.
+
+I gained a deeper understanding of the DISP and DSN parameters for the DD statement in JCL by following what the course instructor was doing and experimentating on my own.
+
+Some of the things that I did today are the following:
+	- I created temporary PS datasets using different approaches and appended records to an existing PS dataset. 
+	- Using the ISPF text editor, I searched for specific text in a file and learned how to go to the next or previous matches of the text.
+	- I created more IF statements in JCL to practice having better control over whether particular job steps are executed.
+
+I feel more comfortable looking at the JESYSMSG, JESJCL, and JESMSGLG files to detect issues in my JCL and see what is happening.
