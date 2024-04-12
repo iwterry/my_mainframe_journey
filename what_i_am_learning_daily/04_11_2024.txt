@@ -1,0 +1,12 @@
+date: April 11, 2024
+
+I watched both the 7th lecture ("JCL Utilities - Overview") and the 8th lecture ("JCL Utilties Continued - GDG Base Part-1") from the second course.
+
+I learned about the following JCL utilities:
+	- IEFBR14
+	- IEBGENER
+	- IEBCOPY
+	- IEBCOMPR
+	- IDCAMS
+
+I also learned how to create GDG (generation data group).
