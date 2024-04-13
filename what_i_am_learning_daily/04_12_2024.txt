@@ -1,0 +1,9 @@
+date: April 12, 2024
+
+I watched the 9th lecture ("JCL GDG Concept Part-2"), 10th lecture ("JCL Procedure - PROC Part-1"), and the 11th lecture ("JCL Procedure - PROC Overriding Part-2") from the second course.
+
+Some of the things that I learned about today are the following:
+	- reading from and writing to a GDG generation
+	- creating and using instream and catalog JCL procedures
+	- creating and using symbolic parameters
+	- using symbolic parameter overriding, DDNAME overriding, and parameter overriding
