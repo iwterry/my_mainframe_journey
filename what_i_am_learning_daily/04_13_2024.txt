@@ -1,0 +1,20 @@
+date: April 13, 2024
+
+I watched the 12th lecture ("JCL Production Abend Overview") and the 13th lecture ("JCL Sort Utility") from the second course.
+
+The course instructor discussed the handling of different abend codes in production settings.
+
+I learned that the JCL Sort utility can be used to sort records in a PS dataset, copy records in a PS dataset, and eliminate duplicate records from a PS dataset.
+
+I practiced the with the following utilities on a mainframe today:
+	- IEFBR14
+		- to create a new PS dataset
+		- to delete an existing PS dataset
+	- IEBGENER
+		- to copy a PS dataset
+		- to concatenate multiple PS datasets
+	- IDCAMS
+		- to delete an existing PS dataset
+		- to create a GDG base
+
+I also practiced creating GDG generations and reading from GDG generations.
