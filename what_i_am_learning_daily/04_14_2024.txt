@@ -1,0 +1,21 @@
+date: April 14, 2024
+
+I practiced with JCL and JCL utilities on a mainframe.
+
+I used the options from the ISPF Primary Option Menu to do the following:
+	- copy a partitioned data set, a member of a partitioned data set, and a sequential data set 
+	- create a generation data group (GDG) base
+	- compare two sequential data sets to see what insertion and deletion changes were made between them
+	- compare two members of different partitioned data sets to see what insertion and deletion changes were made between them
+
+I used the SORT utility to do the following things:
+	- copy a sequential data set
+	- concatenate multiple sequential data sets together
+	- sort a sequential data set
+	- remove records so that a field has no duplicate values
+	- perform aggregation of a field's values based on the values of a different field 
+
+I practiced creating and using JCL procedures and symbolic parameters. 
+I used symbolic overriding to change the primary quantity space, secondary quantity space, and generation number for GDG
+I used DDNAME overriding to change which data set was being used or created.
+I used parameter overriding to change the value of the COND parameter on an EXEC statement.
