@@ -6,7 +6,7 @@ The course instructor discussed the handling of different abend codes in product
 
 I learned that the JCL Sort utility can be used to sort records in a PS dataset, copy records in a PS dataset, and eliminate duplicate records from a PS dataset.
 
-I practiced the with the following utilities on a mainframe today:
+I practiced with the following utilities on a mainframe today:
 	- IEFBR14
 		- to create a new PS dataset
 		- to delete an existing PS dataset
