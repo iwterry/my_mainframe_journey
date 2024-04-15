@@ -1,0 +1,24 @@
+date: April 15, 2024
+
+I watched the 1st lecture ("Introduction to Mainframe DB2") and the 2nd lecture ("Mainframe DB2 Understanding DB2 Table and Constraints").
+
+I learned about the following DB2 data types (along with the corresponding COBOL data type to use in a COBOL program):
+	- CHAR
+	- VARCHAR
+	- SMALLINT
+	- INT
+	- DECIMAL
+	- DATE
+	- TIME
+	- TIMESTAMP
+
+I learned about the following DB2 constraints:
+	- NOT NULL
+	- WITH DEFAULT
+	- UNIQUE
+	- PRIMARY KEY
+	- FOREIGN KEY
+
+I learned about each data type's default value for the data types mentioned earlier.
+
+I learned about parent-child relationships in DB2, ON DELETE CASCADE, and ON DELETE RESTRICT.
