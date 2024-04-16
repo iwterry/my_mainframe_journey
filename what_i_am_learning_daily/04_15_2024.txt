@@ -1,6 +1,6 @@
 date: April 15, 2024
 
-I watched the 1st lecture ("Introduction to Mainframe DB2") and the 2nd lecture ("Mainframe DB2 Understanding DB2 Table and Constraints").
+I watched the 1st lecture ("Introduction to Mainframe DB2") and the 2nd lecture ("Mainframe DB2 Understanding DB2 Table and Constraints") from the third course.
 
 I learned about the following DB2 data types (along with the corresponding COBOL data type to use in a COBOL program):
 	- CHAR
