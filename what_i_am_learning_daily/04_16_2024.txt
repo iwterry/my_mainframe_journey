@@ -1,0 +1,13 @@
+date: April 16, 2024
+
+I watched the 3rd lecture ("How to Code COBOL-DB2 Program"), the 4th lecture ("COBOL-DB2 Pre-compilation and Bind Process"), and the first half of the 5th lecture ("COBOL-DB2 Create Table and Code Program") from lecture the third course.
+
+I learned about what is involved in compiling and running a COBOL program that uses DB2 (including precompilation and the bind process).
+
+Inside SPUFI, I did the following things:
+	- created a database, tablespace, and table
+	- inserted data into the table and queried to view the data inserted into the table
+	- used NOT NULL, PRIMARY KEY, WITH DEFAULT, and CHECK constraints to get hands-on experience how the constraints work
+	- used a UNIQUE INDEX on a column
+	
+
