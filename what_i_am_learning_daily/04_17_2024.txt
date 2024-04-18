@@ -1,0 +1,7 @@
+date: April 17, 2024
+
+I watched the last half of the third course's 5th lecture.
+
+I wrote a COBOL program that accepts input through JCL and writes the input to DB2.
+
+Now, I have to work on compiling and executing the program.
