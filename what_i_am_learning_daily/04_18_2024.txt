@@ -2,6 +2,8 @@ date: April 18, 2024
 
 I spent my time trying to figure out how to compile and execute a COBOL program that uses DB2. I got it to work after a lot of trial and error. The program inserts a record into the database, and the data that goes into the database is hard-coded in the program. I just wanted to keep things simple.
 
-My only intention today was to make sure that I was able to work with COBOL and DB2 together. I did a lot of Google searching and looked at YouTube videos to figure out how I could compile and execute the program on the mainframe I was using. I was able to find some resources and adjust them to work with the mainframe I was using.
+My only intention today was to make sure that I was able to work with COBOL and DB2 together. I used Google and YouTube to help me find helpful content and looked for errors by viewing the logs. I adjusted what I found online to fit the mainframe I was using.
 
 I was not sure if I was going to be able to do it, but I kept pushing forward and learning along the way. This challenge allowed me to get a better understanding of what is involved in compiling and executing a COBOL program that uses DB2.
+
+The website https://www.mainframestechhelp.com/tutorials/db2/precompilation-process.htm has been a big help to me, and I would have saved a lot more time if I followed the examples more.
