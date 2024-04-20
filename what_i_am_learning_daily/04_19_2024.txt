@@ -4,4 +4,4 @@ I watched the 6th lecture ("COBOL-DB2 Insert Program") from the third course.
 
 I spent a lot of time working through the lecture and challenging myself to come up with my own solutions for the different scenarios discussed.
 
-The things that I have done today can be seen at https://github.com/iwterry/my_mainframe_journey/mainframe_db2_developer_training/screenshots/04_19_2024/.
+The things that I have done today can be seen at https://github.com/iwterry/my_mainframe_journey/tree/main/mainframe_db2_developer_training/screenshots/04_19_2024.
