@@ -1,0 +1,14 @@
+date: April 20, 2024
+
+I watched the 7th lecture ("COBOL-DB2 Select - Cursor Concept") from the third course.
+
+I learned about the SELECT statement and how to retrieve only one row even if there are multiple rows that match the query.
+
+I learned the following about cursors:
+	- how to declare them in a COBOL program
+	- some of the different types of cursors
+		- scrollable and non-scrollable cursors
+		- dynamic and static cursors
+	- how to open them in a COBOL program
+	- how to fetch a row from them in a COBOL program
+	- how to close them in a COBOL program
