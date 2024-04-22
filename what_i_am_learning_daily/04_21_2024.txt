@@ -1,0 +1,3 @@
+date: April 21, 2024
+
+I used JCL to practice with IEFBR14 to create and delete a partition data set and with IEBGENER to create a member in the partition data set.  
