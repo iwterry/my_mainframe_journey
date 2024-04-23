@@ -1,0 +1,5 @@
+date: April 22, 2024
+
+I watched the first half of the 8th lecture from the third course.
+
+I practiced fetching data using a cursor in my COBOL program.
