@@ -1,0 +1,6 @@
+date: April 23, 2023
+
+I watched the second half of the 8th lecture ("COBOL-DB2 Select - Cursor Programs") from the third course.
+I watched the first half of the 9th lecture ("COBOL-DB2 Cursor Programs") from the third course.
+
+I practiced fetching data from a cursor and writing the data to a file. I worked with null indicator variables to deal with null values that a column may have.
