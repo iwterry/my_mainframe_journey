@@ -1,0 +1,12 @@
+date: April 24, 2024
+
+I watched the 11th lecture ("COBOL-DB Update Mainpgm - Subpgm Update") from the third course.
+I watched the 12th lecture ("COBOL-DB Update Restart Logic Programs") from the third course.
+I watched the 13th lecture ("COBOL-DB Load and Unload Concept") from the third course.
+
+
+I practiced creating a COBOL main program and a subprogram that both made use of DB2 so that the main program could update rows using a cursor.
+
+I read through the provided COBOL code for the restart logic program to gain a better understanding of how it works.
+
+I learned about the isolation levels of DB2, loading data into DB2 and unloading data from DB2, and tablespace locking used for loading data into DB2.
