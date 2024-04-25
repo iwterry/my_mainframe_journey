@@ -6,7 +6,7 @@ CBLDB2J4 contains the JCL code for CBLDB2P3.
 
 CBLDB2J3 contains the JCL code for CBLDB2P4.
 
-CLAMTAB contains the SQL code to create the S124.CLAIM_T5 dabase table.
+CLAM2TAB contains the SQL code to create the S124.CLAIM_T5 dabase table.
 
 POLCYTAB contains the SQL code to create the S124.POLICY_T5 database table.
 
