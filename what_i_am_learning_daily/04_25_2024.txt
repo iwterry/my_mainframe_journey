@@ -1,0 +1,8 @@
+date: April 25, 2024
+
+I watched the 14th lecture ("COBOL-DB2 Load and SQLCODE Error Codes") from the third course.
+I watched the 15th lecture ("COBOL-DB2 SQL Select Query") from the third course.
+
+I learned some SQLCODE values for indicating that there is some error and how to approach resolving the error.
+
+I learned some different ways to use SQL to get the data that I want.
