@@ -7,6 +7,8 @@ I watched the 13th lecture ("COBOL-DB Load and Unload Concept") from the third c
 
 I practiced creating a COBOL main program and a subprogram that both made use of DB2 so that the main program could update rows using a cursor.
 
+The screenshots for the work that I did can be seen at https://github.com/iwterry/my_mainframe_journey/tree/main/mainframe_db2_developer_training/screenshots/04_24_2024.
+
 I read through the provided COBOL code for the restart logic program to gain a better understanding of how it works.
 
 I learned about the isolation levels of DB2, loading data into DB2 and unloading data from DB2, and tablespace locking used for loading data into DB2.

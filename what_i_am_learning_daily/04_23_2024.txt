@@ -9,3 +9,5 @@ I practiced fetching data from a cursor and writing the data to a file. I worked
 I practiced updating a table using a cursor. I learned that the SQLCODE -904 can result when doing bulk updates to a large number of rows at once. In order to deal with this, I practiced committing a smaller number of row updates to practice avoiding the SQLCODE -904.
 
 I also learned SQLCODE -501 can result from using the cursor after it has been closed and that by default a cursor is closed after making a commit, so I practiced using the WITH HOLD keyword to avoid the cursor closing after using the COMMIT keyword in the program.
+
+The screenshots for the work that I did can be seen at https://github.com/iwterry/my_mainframe_journey/tree/main/mainframe_db2_developer_training/screenshots/04_23_2024.
