@@ -1,0 +1,5 @@
+date: April 26, 2024
+
+I watched the 1st lecture ("Introduction to CICS (Customer Information and Control System)) from the fourth course.
+
+For an online system, I learned that a COBOL program will communicate with CICS for the data it needs, and then CICS will handle the requests by communicating with the data sources. After CICS receives the data from the data sources, it will provide the data to the COBOL program.
