@@ -1,0 +1,22 @@
+date: April 27, 2024
+
+I watched the 2nd lecture ("Introduction to CICS - BMS Mapset") from the fourth course.
+
+I learned about the following things during the lecture:
+	- BMS components
+		- Mapset
+		- Map
+		- Field
+	- Macros
+		- DFHMSD
+		- DFHMDI
+		- DFHMDF
+	- Physical map and symbolic map
+	- DFHMSD parameters
+		- TYPE
+		- LANG
+		- MODE
+		- TIOAPFX
+		- CTRL
+			- FREEKB
+			- FRSET
