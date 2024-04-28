@@ -1,0 +1,17 @@
+date: April 28, 2024
+
+I watched the 3rd lecture ("CICS Screen Design Using BMS Macros") from the fourth course. I watched the first 33 minute of the lecture
+
+I learned about the following:
+	- DFHMDI properties
+		- SIZE
+		- LINE
+		- COLUMN
+		- CTRL
+	- DFHMDF properties
+		- POS
+		- INITIAL
+		- ATTRIB
+			- Protection
+
+I also learned CTRL cannot be used for both the map and the mapset.
