@@ -1,6 +1,6 @@
 date: April 28, 2024
 
-I watched the 3rd lecture ("CICS Screen Design Using BMS Macros") from the fourth course. I watched the first 33 minute of the lecture
+I watched the 3rd lecture ("CICS Screen Design Using BMS Macros") from the fourth course.
 
 I learned about the following:
 	- DFHMDI properties
@@ -11,7 +11,10 @@ I learned about the following:
 	- DFHMDF properties
 		- POS
 		- INITIAL
-		- ATTRIB
-			- Protection
+		- Protection (protected/unprotected)
+		- NUM
+		- IC
+		- Visibility (normal/dark/bright)
+			
 
 I also learned CTRL cannot be used for both the map and the mapset.
