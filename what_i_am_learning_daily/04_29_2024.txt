@@ -1,0 +1,10 @@
+date: April 29, 2024
+
+I watched the 4th lecture ("How to Code COBOL-CICS Program - Part-1") from the fourth course. I watched the first half of the lecture.
+
+If MODE=INOUT for the mapset, then two group variables are created for each map: one for input and the other for output. A REDEFINES clause is used to connect the input group variable and the output group variable for a field.
+
+For each field, there is a variable for the length of the data received, a variable for the input data from the map, a variable for the output data that goes to the map, and a variable that can be used to change the ATTRB property of the field.
+
+There may be more variables associated with a field.
+	
