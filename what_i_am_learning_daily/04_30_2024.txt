@@ -1,0 +1,11 @@
+date: April 30, 2024
+
+I finished watching the 4th lecture ("How to Code COBOL-CICS Program - Part-1") from the fourth course.
+
+I watched the first 12 minutes of the 5th lecture ("How to Code COBOL-CICS Program Part-2") from the fourth course.
+
+I learned that the copybooks DFHAID and DFHBMSCA need to be added to a COBOL-CICS program.
+
+I learned about the SEND, RECEIVE, and RETURN commands for a COBOL-CICS program.
+
+I learned that the map variable groups need to be initialized for the first time before sending and receiving data with LOW-VALUES.
