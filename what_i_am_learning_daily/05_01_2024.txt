@@ -1,0 +1,13 @@
+date: May 1, 2024
+
+I finished watching the 5th lecture ("How to Code COBOL-CICS Program Part-2") from the fourth course.
+
+I learned about when to use the different syntaxes of the RETURN command.
+
+I learned about two ways that a COBOL-CICS program can be triggered (or executed to run).
+
+I learned how the EIBCALEN variable can be used in the program to know if the program has been triggered previously or not.
+
+I learned how the EIBAID variable can be used to determine which key is pressed by the user.
+
+
