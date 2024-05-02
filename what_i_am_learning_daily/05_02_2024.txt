@@ -1,0 +1,19 @@
+date: May 2, 2024
+
+I watched the first 20 minutes of the 10th lecture ("COBOL-CICS-VSAM Concepts Part-1") from the fourth course.
+
+I learned that there are four types of VSAM clusters: ESDS, KSDS, RRDS, and LDS.
+
+I learned that a KSDS cluster is the one that a user can use to get any record randomly by providing a key value for the record.
+
+I learned about the different parameters involved in manually creating a new KSDS cluster from the ISPF Primary Option Menu. One piece of information that needs to be provided when creating the cluster is the offset and length of the key field.
+
+
+-----------
+
+
+I skipped to the 10th lecture because I wanted to learn a little about VSAM before I finished up my initial journey into mainframes.
+
+Hopefully, I will get back to mainframes at a later point, but for now, this is the end.
+
+I was able to accomplish my goal of either learning something new about mainframes or doing something involving mainframes daily for at least two months. Although I am stopping before my original timeline, I am satisfied with what I have accomplished.
